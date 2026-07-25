@@ -1,0 +1,16 @@
+{
+    "deploy": [
+        "deploy.md"
+    ],
+    "docs": "",
+    "features": [],
+    "images": [
+        "bluewave_top.jpg"
+    ],
+    "mcu": "stm32f4",
+    "product": "BlueWave Controller",
+    "thumbnail": "",
+    "url": "https://bluewaverobotics.ir/",
+    "variants": {},
+    "vendor": "BlueWave Robotics"
+}
