@@ -314,31 +314,31 @@ void mp_usbd_ll_init(void);
 #endif
 
 #ifndef MICROPY_HW_USB_MANUFACTURER_STRING
-#define MICROPY_HW_USB_MANUFACTURER_STRING      "MicroPython"
+#define MICROPY_HW_USB_MANUFACTURER_STRING      "MicroBluePy"
 #endif
 
 #ifndef MICROPY_HW_USB_PRODUCT_HS_STRING
-#define MICROPY_HW_USB_PRODUCT_HS_STRING        "Pyboard Virtual Comm Port in HS Mode"
+#define MICROPY_HW_USB_PRODUCT_HS_STRING        "MicroBluePy HS Mode"
 #endif
 
 #ifndef MICROPY_HW_USB_PRODUCT_FS_STRING
-#define MICROPY_HW_USB_PRODUCT_FS_STRING        "Pyboard Virtual Comm Port in FS Mode"
+#define MICROPY_HW_USB_PRODUCT_FS_STRING        "MicroBluePy FS Mode"
 #endif
 
 #ifndef MICROPY_HW_USB_CONFIGURATION_HS_STRING
-#define MICROPY_HW_USB_CONFIGURATION_HS_STRING  "Pyboard Config"
+#define MICROPY_HW_USB_CONFIGURATION_HS_STRING  "MicroBluePy Config"
 #endif
 
 #ifndef MICROPY_HW_USB_INTERFACE_HS_STRING
-#define MICROPY_HW_USB_INTERFACE_HS_STRING      "Pyboard Interface"
+#define MICROPY_HW_USB_INTERFACE_HS_STRING      "MicroBluePy Interface"
 #endif
 
 #ifndef MICROPY_HW_USB_CONFIGURATION_FS_STRING
-#define MICROPY_HW_USB_CONFIGURATION_FS_STRING  "Pyboard Config"
+#define MICROPY_HW_USB_CONFIGURATION_FS_STRING  "MicroBluePy Config"
 #endif
 
 #ifndef MICROPY_HW_USB_INTERFACE_FS_STRING
-#define MICROPY_HW_USB_INTERFACE_FS_STRING      "Pyboard Interface"
+#define MICROPY_HW_USB_INTERFACE_FS_STRING      "MicroBluePy Interface"
 #endif
 
 // Must be 8 bytes.
@@ -348,7 +348,7 @@ void mp_usbd_ll_init(void);
 
 // Must be 16 bytes.
 #ifndef MICROPY_HW_USB_MSC_INQUIRY_PRODUCT_STRING
-#define MICROPY_HW_USB_MSC_INQUIRY_PRODUCT_STRING "pyboard Flash   "
+#define MICROPY_HW_USB_MSC_INQUIRY_PRODUCT_STRING "MicroBluePyFlash"
 #endif
 
 // Must be 4 bytes.

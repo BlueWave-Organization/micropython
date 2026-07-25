@@ -291,7 +291,7 @@ static mp_obj_t mp_machine_unique_id(void) {
     return mp_obj_new_bytes(id, 12);
 }
 
-// Resets the pyboard in a manner similar to pushing the external RESET button.
+// Resets the MicroBluePy in a manner similar to pushing the external RESET button.
 MP_NORETURN static void mp_machine_reset(void) {
     powerctrl_mcu_reset();
 }

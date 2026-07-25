@@ -91,7 +91,7 @@
 #define MICROPY_PY_BUILTINS_HELP_TEXT stm32_help_text
 #endif
 #ifndef MICROPY_PY_SYS_PLATFORM     // let boards override it if they want
-#define MICROPY_PY_SYS_PLATFORM     "pyboard"
+#define MICROPY_PY_SYS_PLATFORM     "MicroBluePy"
 #endif
 #ifndef MICROPY_PY_THREAD
 #define MICROPY_PY_THREAD           (0)

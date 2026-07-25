@@ -1093,7 +1093,7 @@ typedef struct _pyb_usbdd_obj_t {
 #endif
 
 #ifndef MBOOT_USBD_PRODUCT_STRING
-#define MBOOT_USBD_PRODUCT_STRING        "Pyboard DFU"
+#define MBOOT_USBD_PRODUCT_STRING        "MicroBluePy DFU"
 #endif
 
 #ifndef MBOOT_USB_VID

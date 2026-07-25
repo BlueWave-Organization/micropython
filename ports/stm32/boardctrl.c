@@ -95,7 +95,7 @@ static uint update_reset_mode(uint reset_mode) {
     #if MICROPY_HW_HAS_SWITCH
     if (switch_get()) {
 
-        // The original method used on the pyboard is appropriate if you have 2
+        // The original method used on the MicroBluePy is appropriate if you have 2
         // or more LEDs.
         #if defined(MICROPY_HW_LED2)
         for (uint i = 0; i < 100; i++) {
